@@ -1,4 +1,29 @@
 .navbar {
     border: 2px solid black;
 }
+
+.btn-secondary {
+    margin-left: 400px;
+    font-weight: bold;
+    padding: 20px 40px 20px 40px;
+    background: rgb(58, 56, 56);
+    -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
   
+}
+
+.btn-secondary:hover {
+    background: #9980cc;
+    border: 1px solid white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    animation: mymove 5s;
+}
+
+.fondo {
+    background: #9980cc;
+    background-image: linear-gradient(to right, #7494dd , #cc8099);
+}
+
+@keyframes mymove {
+    80% {opacity: 0;}
+  }
